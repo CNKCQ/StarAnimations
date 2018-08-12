@@ -58,7 +58,7 @@ let window = UIApplication.shared.keyWindow!
 StarAnimations is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-注意： 目前此 lib 只支持真机 debug 调试
+注意： 目前此 framework 只支持真机 debug 调试
 
 ```ruby
 pod 'StarAnimations'
