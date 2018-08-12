@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'StarAnimations_Example' do
+    pod 'StarAnimations'#s, :path => '../'
+    pod 'Reusable'
+
+  target 'StarAnimations_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

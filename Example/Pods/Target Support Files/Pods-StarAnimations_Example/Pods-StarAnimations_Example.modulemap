@@ -1,0 +1,6 @@
+framework module Pods_StarAnimations_Example {
+  umbrella header "Pods-StarAnimations_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_StarAnimations_Tests {
+  umbrella header "Pods-StarAnimations_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

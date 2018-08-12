@@ -1,0 +1,24 @@
+PODS:
+  - Reusable (4.0.2):
+    - Reusable/Storyboard (= 4.0.2)
+    - Reusable/View (= 4.0.2)
+  - Reusable/Storyboard (4.0.2)
+  - Reusable/View (4.0.2)
+  - StarAnimations (0.1.1)
+
+DEPENDENCIES:
+  - Reusable
+  - StarAnimations
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Reusable
+    - StarAnimations
+
+SPEC CHECKSUMS:
+  Reusable: 584a5629747c52e0f6a77841b400dc2643f6fa0f
+  StarAnimations: 0d179c94b79185bfd00b74c29367b6fa8bff77a7
+
+PODFILE CHECKSUM: 72bd9fe1b7ab2420dd869a15101e20b1bef22f49
+
+COCOAPODS: 1.5.2
