@@ -13,6 +13,7 @@ class UpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.black.withAlphaComponent(0.4)
         self.popoverView = PopoverView(CGRect(x: 16, y: (self.view.frame.height - 400) / 2.0, width: self.view.frame.width - 32, height: 400), controller: self)
         self.view.addSubview(self.popoverView)        
     }

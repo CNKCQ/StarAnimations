@@ -4,6 +4,7 @@ target 'StarAnimations_Example' do
     pod 'StarAnimations', :path => '/Users/steve/Desktop/StarAnimations'
 #    pod 'StarAnimations'
     pod 'Reusable'
+    pod 'Hero'
 
   target 'StarAnimations_Tests' do
     inherit! :search_paths

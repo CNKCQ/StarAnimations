@@ -9,6 +9,7 @@
 import UIKit
 import Reusable
 import StarAnimations
+import Hero
 
 class ViewController: UIViewController {
     var tableView: UITableView!
@@ -32,17 +33,17 @@ extension ViewController: UITableViewDelegate {
         let presentRect = beginCell.starView!.convert(beginCell.starView!.bounds, to: window)
         StarsConfig.default.presentRect = presentRect
         StarsConfig.default.starImage = beginCell.starView.image ?? UIImage(named: "icon_star_filled")
-        StarsConfig.default.duration = 1
+        StarsConfig.default.destAlpha = 0.6
+        StarsConfig.default.dismissDuration = 0.6
         StarsConfig.default.presentDuration = 0.3
+        StarsConfig.default.starsDuration = 1
         StarsConfig.default.starsCount = 9
-//        StarsConfig.default.presentAnimation = {
-//            let to = $0.viewController(forKey: UITransitionContextViewControllerKey.to)
-//            to?.view.transform = CGAffineTransform.init(scaleX: 0.1, y: 0.1)
-//            UIView.animate(withDuration: $1, animations: {
-//                to?.view.transform = .identity
-//            })
-//        }
+        
         let dest: UIViewController = UpViewController()
+        
+//        dest.hero.isEnabled = true
+//        dest.hero.modalAnimationType = .zoomOut 
+
         self.animationManager = StarAnimationManager(self, dest: dest)
         self.present(dest, animated: true, completion: nil)
     }
