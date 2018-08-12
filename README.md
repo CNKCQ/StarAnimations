@@ -11,15 +11,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Interface
 ```swift
-    public static let `default` = StarsConfig()
-    // popup star 绝对路径
+   // popup star 绝对路径
     public var presentRect: CGRect = CGRect.zero
     // bottom star 绝对路径
     public var dismissRect: CGRect = CGRect.zero
     // ✨ 图片模型
     public var starImage: UIImage!
-    // 动画时间设置
-    public var duration: Double = 1
+    // ✨ 动画时间设置
+    public var starsDuration: Double = 1
+    // dismiss 动画时间设置
+    public var dismissDuration: Double = 1
     // present 动画间隔设置 value 如果小于 0.25 会使用 duration 的 value
     public var presentDuration: Double = 0.1
     // present 控制器背景颜色
@@ -28,6 +29,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     public var destAlpha: CGFloat = 0.4
     // ✨ 个数控制
     public var starsCount: Int = 5
+    // 转场缩放比例 (0.0~1.0)
+    public var transformScale: CGFloat = 0.8
     // 自定义 present 动画的 闭包
     public var presentAnimation: ((_ transitionContext: UIViewControllerContextTransitioning, _ duration: Double) -> (Void))? = nil
     // 自定 present 动画的 (复杂的动画)
@@ -57,22 +60,27 @@ To run the example project, clone the repo, and run `pod install` from the Examp
         90,
         100
     ]
-
 ```
 
 ## Demo
 bottom controller
 
 ```swift
-        let beginCell: TableTableViewCell = tableView.cellForRow(at: indexPath) as! TableTableViewCell
-        let window = UIApplication.shared.keyWindow!
+      let window = UIApplication.shared.keyWindow!
         let presentRect = beginCell.starView!.convert(beginCell.starView!.bounds, to: window)
         StarsConfig.default.presentRect = presentRect
         StarsConfig.default.starImage = beginCell.starView.image ?? UIImage(named: "icon_star_filled")
-        StarsConfig.default.duration = 1
+        StarsConfig.default.destAlpha = 0.6
+        StarsConfig.default.dismissDuration = 0.6
         StarsConfig.default.presentDuration = 0.3
+        StarsConfig.default.starsDuration = 1
         StarsConfig.default.starsCount = 9
+        
         let dest: UIViewController = UpViewController()
+        
+//        dest.hero.isEnabled = true
+//        dest.hero.modalAnimationType = .zoomOut 
+
         self.animationManager = StarAnimationManager(self, dest: dest)
         self.present(dest, animated: true, completion: nil)
 ```
