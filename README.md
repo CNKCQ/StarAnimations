@@ -32,7 +32,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     public var presentAnimation: ((_ transitionContext: UIViewControllerContextTransitioning, _ duration: Double) -> (Void))? = nil
     // 自定 present 动画的 (复杂的动画)
     public var presentAnimator: PresentAnimator?
-    // 💥 旋转数组个数必须 等于 ✨ 个数
+    // 💥 旋转数组个数必须 >= ✨ 个数
     public var toothAngles: [CGFloat] = [
         40,
         80,
@@ -45,7 +45,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
         360
     ]
     
-    // 💥 距离数组个数必须 等于 ✨ 个数
+    // 💥 距离数组个数必须 >= ✨ 个数
     public var outPaddings: [CGFloat] = [
         20,
         30,
