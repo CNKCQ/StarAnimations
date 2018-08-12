@@ -1,6 +1,0 @@
-framework module StarAnimations {
-  umbrella header "StarAnimations-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -36,7 +36,7 @@ class PopoverView: UIView {
     @objc func dismiss() {
         let window = UIApplication.shared.keyWindow!
         let dismissRect = self.starView.convert(self.starView.bounds, to: window);
-//        StarsConfig.default.dismissRect = dismissRect
+        StarsConfig.default.dismissRect = dismissRect
         self.viewController.dismiss(animated: true, completion: nil)
     }
     

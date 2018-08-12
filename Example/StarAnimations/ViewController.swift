@@ -12,7 +12,7 @@ import StarAnimations
 
 class ViewController: UIViewController {
     var tableView: UITableView!
-//    var animationManager: StarAnimationManager!
+    var animationManager: StarAnimationManager!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,11 +31,11 @@ extension ViewController: UITableViewDelegate {
         let dest: UIViewController = UpViewController()
         let window = UIApplication.shared.keyWindow!
         let presentRect = beginCell.starView!.convert(beginCell.starView!.bounds, to: window)
-//        self.animationManager = StarAnimationManager(self, dest: self.dest)
-//        StarsConfig.default.presentRect = presentRect
-//        StarsConfig.default.destBackgroundColor = UIColor.blue
-//        StarsConfig.default.starImage = beginCell.starView.image ?? UIImage(named: "icon_star_filled")
-//        StarsConfig.default.duration = 0.4
+        self.animationManager = StarAnimationManager(self, dest: dest)
+        StarsConfig.default.presentRect = presentRect
+        StarsConfig.default.destBackgroundColor = UIColor.blue
+        StarsConfig.default.starImage = beginCell.starView.image ?? UIImage(named: "icon_star_filled")
+        StarsConfig.default.duration = 0.4
         self.present(dest, animated: true, completion: nil)
     }
     
