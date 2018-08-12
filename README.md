@@ -25,10 +25,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     public var destAlpha: CGFloat = 0.4
     // ✨ 个数控制
     public var starsCount: Int = 9
-    // 💥 旋转数组个数必须大于 ✨ 个数
+    // 💥 旋转数组个数必须等于 ✨ 个数
     public var toothAngles: [CGFloat] = [40, 80, 120, 160, 200, 240, 280, 320, 360]
     
-    // 💥 距离数组个数必须大于 ✨ 个数
+    // 💥 距离数组个数必须等于 ✨ 个数
     public var outPaddings: [CGFloat] = [20, 30, 40, 50, 60, 70, 80, 90, 100]
 ```
 
