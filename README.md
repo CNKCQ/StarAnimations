@@ -64,13 +64,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 bottom controller
 
 ```swift
-let presentRect = beginCell.starView!.convert(beginCell.starView!.bounds, to: window)
-        self.animationManager = StarAnimationManager(self, dest: self.dest)
+        let beginCell: TableTableViewCell = tableView.cellForRow(at: indexPath) as! TableTableViewCell
+        let window = UIApplication.shared.keyWindow!
+        let presentRect = beginCell.starView!.convert(beginCell.starView!.bounds, to: window)
         StarsConfig.default.presentRect = presentRect
-        StarsConfig.default.destBackgroundColor = UIColor.blue
-        StarsConfig.default.starImage = beginCell.starView.image ?? UIImage(named: "icon_star_filled_green-1")
-        StarsConfig.default.duration = 0.4
-        present(self.dest, animated: true, completion: nil)
+        StarsConfig.default.starImage = beginCell.starView.image ?? UIImage(named: "icon_star_filled")
+        StarsConfig.default.duration = 1
+        StarsConfig.default.presentDuration = 0.3
+        StarsConfig.default.starsCount = 9
+        let dest: UIViewController = UpViewController()
+        self.animationManager = StarAnimationManager(self, dest: dest)
+        self.present(dest, animated: true, completion: nil)
 ```
 popup Controller
 
