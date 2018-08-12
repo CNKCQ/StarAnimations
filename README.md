@@ -79,7 +79,7 @@ bottom controller
 popup Controller
 
 ```swift
-let window = UIApplication.shared.keyWindow!
+        let window = UIApplication.shared.keyWindow!
         let dismissRect = self.starView.convert(self.starView.bounds, to: window);
         StarsConfig.default.dismissRect = dismissRect
         self.dismiss(animated: true, completion: nil)
