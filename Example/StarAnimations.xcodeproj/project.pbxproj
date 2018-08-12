@@ -284,7 +284,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-StarAnimations_Example/Pods-StarAnimations_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
-				"${PODS_ROOT}/StarAnimations/StarAnimations/Frameworks/StarAnimations.framework",
+				"${BUILT_PRODUCTS_DIR}/StarAnimations/StarAnimations.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

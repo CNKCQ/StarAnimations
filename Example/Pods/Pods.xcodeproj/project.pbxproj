@@ -7,100 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B7A3A3F7E263095B03081E492A2162D /* StoryboardSceneBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05AA8A82338EF1CDEC7B526196E769B /* StoryboardSceneBased.swift */; };
-		0EC2271916F3AFAEA50835B365786D59 /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE405D75B2990C3FAFBFA6922C1D8C /* NibOwnerLoadable.swift */; };
-		46551582916BC41C2E0568E8BE715B80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		50815A6263A5AC2D016DD4FEF85B49A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		69457068DC3EB71455B64057497D1D8A /* Pods-StarAnimations_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DE4EC3BFD4A7A1DE7805E598DC8629 /* Pods-StarAnimations_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3793033A3D7F7E1C66C43D5DAEAD58 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B34222796F83EBFE7C0541334BB21 /* Reusable.swift */; };
+		146CBA7BDC872E3748F1A0357E3653AA /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A05C6A72E02D2F81F88C9C4399CDCB /* NibLoadable.swift */; };
+		24BF195BE891FF0B8CC097D7628FCA6A /* StoryboardSceneBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15050EA9A4BA48E6F87C096051ADE64 /* StoryboardSceneBased.swift */; };
+		39AF976C4857E22DD03F4FEE281626D5 /* Reusable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F8DE49ADAAD935C112BA6945AC73B9 /* Reusable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B2E8BA645D83B7D2CF3234EAFC74A9 /* StoryboardBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A63237669529A5A74EE1981C202E4A /* StoryboardBased.swift */; };
+		47B632836751B72077E74B0271F5681F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		4B8FAF00667C70BA7E4787FB225D41B2 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACBA37F042ED369141D30633EDEECB /* UITableView+Reusable.swift */; };
+		55949DF41BA13499320C71C5B2301E6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		6B563375F58C8B695745FE8E161D2D03 /* StarAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80F2CAE536FB408A2A80C05557CE07 /* StarAnimations-dummy.m */; };
 		6D39801175B0DCB633D6F7982E5A1E4F /* Pods-StarAnimations_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7CDD0187A8571FCBE4B63B34D98E3 /* Pods-StarAnimations_Tests-dummy.m */; };
-		732D1AE6ADEC481CD440FC5AEA787D75 /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612ABE517B3D875206C4434E10453237 /* UICollectionView+Reusable.swift */; };
+		719F632393DE5C5B276B491D4CDCE5FE /* StarAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9865EBD1C0B571AF2DDCC7DD8AD0B /* StarAnimator.swift */; };
+		777F69E79C84FCE21C008F05B9800AF5 /* StarPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEABE3917371AE8B98F272F1BA8C0A88 /* StarPresentationController.swift */; };
+		7C76676140386015EB81D0A4E5664BCD /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84B830FA04E7A4024BD28BDF9739F05 /* UICollectionView+Reusable.swift */; };
+		7E7B4C43387D88BFA31A284C432110E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		8059041FB6EB5AA73A941E7784C09D3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
 		8A50969EE74226C0546D1203CB0D9156 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		8AA85411CC36F5007AF64149550B64AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		9F9B85FD4846C5C4214981E0360ABD7D /* Reusable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FAE63341544578F6B6340BC3830AF5 /* Reusable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD01A07CF9FC295D0B249ADA5F053D07 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0D2C514E2CF50A5E7E30A49FB8DDE /* UITableView+Reusable.swift */; };
+		90F28606C32E8851570F5895C483D58B /* StarAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF37ED7E7F7596431DBDAB48AF5ABF9 /* StarAnimationManager.swift */; };
+		9BD5AEBED47FB2E2AD9F6734CE79DEFE /* StarsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED95A3F3A57C5AFF2E76F7F6A9FA73D /* StarsConfig.swift */; };
+		A56B378681B0BFAE639809BCAD5D2AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		A830AEF30BD8B9AC6E2557F9AD5272BE /* StarAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A5F24C7D062E82C48FCDEEBCD4FE87 /* StarAnimatedTransitioning.swift */; };
+		A94A83912CE12ABC9CB23107BDF58FD6 /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F8C6F7A9437384BE60AA9175E12F28 /* NibOwnerLoadable.swift */; };
 		B3B52210385876630FEA708881986B2F /* Pods-StarAnimations_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A30492A64F95AA23BE71558C4C2FD4B4 /* Pods-StarAnimations_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B96B4D475788785576EE8DB9C8EEDD1A /* Reusable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00273F36455BC88F977509C0BC74CBDD /* Reusable-dummy.m */; };
-		D81F218B321420FBF85F7F7B670B801B /* StoryboardBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AC18B9AC53CC213353D4B27503E7DA /* StoryboardBased.swift */; };
-		ED9FB861D194E90A1116A0BEF25FD6B7 /* Pods-StarAnimations_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B0E96E71B7575A59E68255C24055D /* Pods-StarAnimations_Example-dummy.m */; };
-		EE1364AEE70F0BCD611A776DF1763CD6 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA84FADB120FA31F7DD1B6C588D5AD1 /* NibLoadable.swift */; };
-		FC8AC06732925C31974728D10BB1F270 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4522927D99EC09B37528829ADFD50CCE /* Reusable.swift */; };
+		B587F7C83698DCD169ABF83DB12A3482 /* Pods-StarAnimations_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DE4EC3BFD4A7A1DE7805E598DC8629 /* Pods-StarAnimations_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B793D0D2235B357FA6F3C44B9ADBF3C7 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E32B78D9A63E6776F5CA5F5887E7C /* DismissAnimator.swift */; };
+		B94294E80F4A92A118108788F7E72B54 /* Pods-StarAnimations_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 695B0E96E71B7575A59E68255C24055D /* Pods-StarAnimations_Example-dummy.m */; };
+		C51CE1CA8FFA55B6CD7158216F439C0E /* StarAnimations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03565F912632769B175D231FFD9E971C /* StarAnimations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D831C3B9860D65A5D74EA71F4B5F3999 /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DE24A093E815523A925CCFC2B6F146 /* PresentAnimator.swift */; };
+		D858824FF08072A7B5B74BB84AF9D82F /* Reusable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FF39A0CDF7847B24D1023B0844564E /* Reusable-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3206ED480036E7FE0865E9F783BD44F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12548A7AAC7D16F4F806CE63BF40E08A;
+			remoteInfo = StarAnimations;
+		};
+		6314D902286B6EA5B4534193A027E489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CEEEC61F8B6C74731C4F2362F1E1EFE;
+			remoteInfo = Reusable;
+		};
 		7AD9626F5A431CA2AD0B8355151C5908 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0D012D7C8BBDABEF90F14B379AB49ECD;
+			remoteGlobalIDString = 99AF4AD9F5CB7641FF06D537CBFF4496;
 			remoteInfo = "Pods-StarAnimations_Example";
-		};
-		9CB716779A74DAE1FC8169AB2538CE19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C502DC19C295195DA653EBF69B7B472;
-			remoteInfo = Reusable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00273F36455BC88F977509C0BC74CBDD /* Reusable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reusable-dummy.m"; sourceTree = "<group>"; };
 		02F9EC7E7A2CE70DDF1B2703C19CAA10 /* Pods-StarAnimations_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarAnimations_Example.release.xcconfig"; sourceTree = "<group>"; };
+		03565F912632769B175D231FFD9E971C /* StarAnimations-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarAnimations-umbrella.h"; sourceTree = "<group>"; };
+		05C883BF1B8955033C5167359D911FB1 /* StarAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StarAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A5F24C7D062E82C48FCDEEBCD4FE87 /* StarAnimatedTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarAnimatedTransitioning.swift; path = StarAnimations/Classes/StarAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		126C2B718C8DEE7C382B79CC738264E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		16718CEED8038DF318F4A63E2ED868CA /* Pods-StarAnimations_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarAnimations_Tests.modulemap"; sourceTree = "<group>"; };
-		2EA84FADB120FA31F7DD1B6C588D5AD1 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoadable.swift; path = Sources/View/NibLoadable.swift; sourceTree = "<group>"; };
-		30AC18B9AC53CC213353D4B27503E7DA /* StoryboardBased.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardBased.swift; path = Sources/Storyboard/StoryboardBased.swift; sourceTree = "<group>"; };
-		4522927D99EC09B37528829ADFD50CCE /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = Sources/View/Reusable.swift; sourceTree = "<group>"; };
+		1FF37ED7E7F7596431DBDAB48AF5ABF9 /* StarAnimationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarAnimationManager.swift; path = StarAnimations/Classes/StarAnimationManager.swift; sourceTree = "<group>"; };
+		23F9865EBD1C0B571AF2DDCC7DD8AD0B /* StarAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarAnimator.swift; path = StarAnimations/Classes/StarAnimator.swift; sourceTree = "<group>"; };
+		37A05C6A72E02D2F81F88C9C4399CDCB /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoadable.swift; path = Sources/View/NibLoadable.swift; sourceTree = "<group>"; };
+		46719BAF2B4BE7181A34A950B8B36418 /* Reusable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		487AE816EF6F99BFA25BF1C96EC7516F /* Pods-StarAnimations_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarAnimations_Example.modulemap"; sourceTree = "<group>"; };
 		4A7B72ECB945290BFD3BCFD501F41EED /* Pods-StarAnimations_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarAnimations_Example-resources.sh"; sourceTree = "<group>"; };
-		4B7D1F0D45D50FC9D429FA9921A8BF40 /* Reusable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reusable.modulemap; sourceTree = "<group>"; };
+		4E5347F8760EDC84EFD0B092B01F8F50 /* Reusable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reusable-prefix.pch"; sourceTree = "<group>"; };
+		54DE24A093E815523A925CCFC2B6F146 /* PresentAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentAnimator.swift; path = StarAnimations/Classes/PresentAnimator.swift; sourceTree = "<group>"; };
 		55DE4EC3BFD4A7A1DE7805E598DC8629 /* Pods-StarAnimations_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarAnimations_Example-umbrella.h"; sourceTree = "<group>"; };
-		595DAE03CFF0C41C374DC0DFD09D474D /* Reusable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reusable.xcconfig; sourceTree = "<group>"; };
-		5A34742EFFCEF3A74A1EFB1EC895C281 /* Pods_StarAnimations_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StarAnimations_Tests.framework; path = "Pods-StarAnimations_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		612ABE517B3D875206C4434E10453237 /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Reusable.swift"; path = "Sources/View/UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
-		68C0D2C514E2CF50A5E7E30A49FB8DDE /* UITableView+Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Reusable.swift"; path = "Sources/View/UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		5E034ADFB92819ECEDE0BC280C65E18E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F80F2CAE536FB408A2A80C05557CE07 /* StarAnimations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StarAnimations-dummy.m"; sourceTree = "<group>"; };
 		695B0E96E71B7575A59E68255C24055D /* Pods-StarAnimations_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarAnimations_Example-dummy.m"; sourceTree = "<group>"; };
-		6DF7C46A659D4D27F33ED8EC768738B9 /* Reusable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reusable-prefix.pch"; sourceTree = "<group>"; };
 		6ED4349256EDC8C20C121DD82C8FB499 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		728B34CEAD2B983FB39E9805C9CCF852 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		752D1A56E7C1562E516EFF76A7619857 /* Pods-StarAnimations_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarAnimations_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75B627DD9EEAFD54567CB623A4274C9F /* Pods-StarAnimations_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarAnimations_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A2DB27A1476C2F88A3B4A99F38079C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7A34329F65128096ADBAF53D951F133B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BACBA37F042ED369141D30633EDEECB /* UITableView+Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Reusable.swift"; path = "Sources/View/UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		7C32D0162CB4B8C83B2D1AAD5FB9F414 /* Pods-StarAnimations_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarAnimations_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7DD1B5F7D77EEECF83BD0B7CBB29037D /* StarAnimations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarAnimations-prefix.pch"; sourceTree = "<group>"; };
+		7ED95A3F3A57C5AFF2E76F7F6A9FA73D /* StarsConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarsConfig.swift; path = StarAnimations/Classes/StarsConfig.swift; sourceTree = "<group>"; };
 		844CA09D5760F3BCBA356AE8C6BF596D /* Pods-StarAnimations_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarAnimations_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		892A634E5F95827ABF1CCFBCDE96ECBD /* Pods-StarAnimations_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarAnimations_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		89C7CDD0187A8571FCBE4B63B34D98E3 /* Pods-StarAnimations_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarAnimations_Tests-dummy.m"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F8C6F7A9437384BE60AA9175E12F28 /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibOwnerLoadable.swift; path = Sources/View/NibOwnerLoadable.swift; sourceTree = "<group>"; };
+		9E4B34222796F83EBFE7C0541334BB21 /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = Sources/View/Reusable.swift; sourceTree = "<group>"; };
+		A15050EA9A4BA48E6F87C096051ADE64 /* StoryboardSceneBased.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardSceneBased.swift; path = Sources/Storyboard/StoryboardSceneBased.swift; sourceTree = "<group>"; };
 		A30492A64F95AA23BE71558C4C2FD4B4 /* Pods-StarAnimations_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarAnimations_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A5A13F23B64D2095B5C5C623294E2657 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3639EC98D63681C579636B329868803 /* Pods-StarAnimations_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarAnimations_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BAD5AF5C16B3CCFDE811B180A454D1EC /* Reusable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reusable.framework; path = Reusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB5FAD3CCE670ADB49E7517F19406A67 /* Pods_StarAnimations_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StarAnimations_Example.framework; path = "Pods-StarAnimations_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84B830FA04E7A4024BD28BDF9739F05 /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Reusable.swift"; path = "Sources/View/UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		BC0B7B638B78FCD24D22CDBFBF86B6DA /* StarAnimations.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = StarAnimations.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C05AA8A82338EF1CDEC7B526196E769B /* StoryboardSceneBased.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardSceneBased.swift; path = Sources/Storyboard/StoryboardSceneBased.swift; sourceTree = "<group>"; };
-		C7FAE63341544578F6B6340BC3830AF5 /* Reusable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reusable-umbrella.h"; sourceTree = "<group>"; };
+		C080AFEB9D5544F09373B79395C43C33 /* StarAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarAnimations.xcconfig; sourceTree = "<group>"; };
+		C448BCE6FBD3A4039BBD03061BE76F0C /* Reusable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reusable.xcconfig; sourceTree = "<group>"; };
+		C5A63237669529A5A74EE1981C202E4A /* StoryboardBased.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardBased.swift; path = Sources/Storyboard/StoryboardBased.swift; sourceTree = "<group>"; };
 		CC63A225C5D46C3CD8A298455BE4A118 /* Pods-StarAnimations_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarAnimations_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CCAE42CD0D8535098AABC9EC30DF5985 /* StarAnimations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StarAnimations.modulemap; sourceTree = "<group>"; };
+		D0CFB1FE01AEDFAD730775064565B3D5 /* Reusable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reusable.modulemap; sourceTree = "<group>"; };
 		D114A7EE95077BEA3B34403033B25A1A /* Pods-StarAnimations_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarAnimations_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3FF39A0CDF7847B24D1023B0844564E /* Reusable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reusable-dummy.m"; sourceTree = "<group>"; };
+		D9F2DDCAF88C0CC3549DBB44E4497AAE /* Pods_StarAnimations_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarAnimations_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A0102EDED6025C3BD2422C0010FF45 /* Pods-StarAnimations_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarAnimations_Tests-resources.sh"; sourceTree = "<group>"; };
 		EE13554FB0FE42F81F89CA71CA069CCC /* Pods-StarAnimations_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarAnimations_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F4DE405D75B2990C3FAFBFA6922C1D8C /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibOwnerLoadable.swift; path = Sources/View/NibOwnerLoadable.swift; sourceTree = "<group>"; };
-		F763C7E0B44CAB3FC4851F86A66F2B7F /* StarAnimations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StarAnimations.framework; path = StarAnimations/Frameworks/StarAnimations.framework; sourceTree = "<group>"; };
+		F3168CAC45E09E4347EA23B1C315367D /* Pods_StarAnimations_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarAnimations_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68E32B78D9A63E6776F5CA5F5887E7C /* DismissAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissAnimator.swift; path = StarAnimations/Classes/DismissAnimator.swift; sourceTree = "<group>"; };
+		F6F8DE49ADAAD935C112BA6945AC73B9 /* Reusable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reusable-umbrella.h"; sourceTree = "<group>"; };
+		FEABE3917371AE8B98F272F1BA8C0A88 /* StarPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarPresentationController.swift; path = StarAnimations/Classes/StarPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		87C071FBB1DF1A95C31EDF8025E579DB /* Frameworks */ = {
+		4BB6D1FDF677CD64B7FCC0C134243092 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50815A6263A5AC2D016DD4FEF85B49A3 /* Foundation.framework in Frameworks */,
+				55949DF41BA13499320C71C5B2301E6D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2664C820B5651C250B3D60A262C6791 /* Frameworks */ = {
+		9B4DA49D96E47CAFF1E03C9B621DBB00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA85411CC36F5007AF64149550B64AA /* Foundation.framework in Frameworks */,
-				46551582916BC41C2E0568E8BE715B80 /* UIKit.framework in Frameworks */,
+				A56B378681B0BFAE639809BCAD5D2AF7 /* Foundation.framework in Frameworks */,
+				8059041FB6EB5AA73A941E7784C09D3C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27EEDFEFB6A4363742F2339F138AE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B632836751B72077E74B0271F5681F /* Foundation.framework in Frameworks */,
+				7E7B4C43387D88BFA31A284C432110E5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,21 +167,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		13F4FC169A1758190289ACD887214740 /* StarAnimations */ = {
+		2A38C5C4F5A6283EA891B9F926CC1E32 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2B5B61B44F804BBB916DC9A868A24BDC /* Frameworks */,
+				72004A610C284A579F0589957A61AF71 /* StarAnimations */,
 			);
-			name = StarAnimations;
-			path = StarAnimations;
-			sourceTree = "<group>";
-		};
-		2B5B61B44F804BBB916DC9A868A24BDC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F763C7E0B44CAB3FC4851F86A66F2B7F /* StarAnimations.framework */,
-			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2F059799E54F62FE1FCA6B649F223086 /* Targets Support Files */ = {
@@ -150,29 +184,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		34C13C8AAB8EC40EC569E2D175FA8F17 /* Reusable */ = {
-			isa = PBXGroup;
-			children = (
-				59F23F10E8E58A6D6664EB8E3316A839 /* Storyboard */,
-				DFDB88CD97265BE400E65333B0AAB2E0 /* Support Files */,
-				3F68796A2B3DFC4788BBA803039DB7ED /* View */,
-			);
-			name = Reusable;
-			path = Reusable;
-			sourceTree = "<group>";
-		};
-		3F68796A2B3DFC4788BBA803039DB7ED /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2EA84FADB120FA31F7DD1B6C588D5AD1 /* NibLoadable.swift */,
-				F4DE405D75B2990C3FAFBFA6922C1D8C /* NibOwnerLoadable.swift */,
-				4522927D99EC09B37528829ADFD50CCE /* Reusable.swift */,
-				612ABE517B3D875206C4434E10453237 /* UICollectionView+Reusable.swift */,
-				68C0D2C514E2CF50A5E7E30A49FB8DDE /* UITableView+Reusable.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,13 +192,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		59F23F10E8E58A6D6664EB8E3316A839 /* Storyboard */ = {
+		43B329E6A41960B4D03155AA3CEA26B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				30AC18B9AC53CC213353D4B27503E7DA /* StoryboardBased.swift */,
-				C05AA8A82338EF1CDEC7B526196E769B /* StoryboardSceneBased.swift */,
+				37A05C6A72E02D2F81F88C9C4399CDCB /* NibLoadable.swift */,
+				95F8C6F7A9437384BE60AA9175E12F28 /* NibOwnerLoadable.swift */,
+				9E4B34222796F83EBFE7C0541334BB21 /* Reusable.swift */,
+				B84B830FA04E7A4024BD28BDF9739F05 /* UICollectionView+Reusable.swift */,
+				7BACBA37F042ED369141D30633EDEECB /* UITableView+Reusable.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		525AD1F5E652AA19B470ED8E7D1DB613 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C5A63237669529A5A74EE1981C202E4A /* StoryboardBased.swift */,
+				A15050EA9A4BA48E6F87C096051ADE64 /* StoryboardSceneBased.swift */,
 			);
 			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		5B5E8BD40EFEA522A674BB34F4AECBA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A13F23B64D2095B5C5C623294E2657 /* Info.plist */,
+				D0CFB1FE01AEDFAD730775064565B3D5 /* Reusable.modulemap */,
+				C448BCE6FBD3A4039BBD03061BE76F0C /* Reusable.xcconfig */,
+				D3FF39A0CDF7847B24D1023B0844564E /* Reusable-dummy.m */,
+				4E5347F8760EDC84EFD0B092B01F8F50 /* Reusable-prefix.pch */,
+				F6F8DE49ADAAD935C112BA6945AC73B9 /* Reusable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reusable";
+			sourceTree = "<group>";
+		};
+		602B297EA380E260E24E7B4037470C77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E034ADFB92819ECEDE0BC280C65E18E /* Info.plist */,
+				CCAE42CD0D8535098AABC9EC30DF5985 /* StarAnimations.modulemap */,
+				C080AFEB9D5544F09373B79395C43C33 /* StarAnimations.xcconfig */,
+				5F80F2CAE536FB408A2A80C05557CE07 /* StarAnimations-dummy.m */,
+				7DD1B5F7D77EEECF83BD0B7CBB29037D /* StarAnimations-prefix.pch */,
+				03565F912632769B175D231FFD9E971C /* StarAnimations-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../study/StarAnimations/Example/Pods/Target Support Files/StarAnimations";
 			sourceTree = "<group>";
 		};
 		652E300AAE841B58FB29559CC5482DF5 /* Pods-StarAnimations_Tests */ = {
@@ -226,58 +277,82 @@
 			path = "Target Support Files/Pods-StarAnimations_Example";
 			sourceTree = "<group>";
 		};
+		72004A610C284A579F0589957A61AF71 /* StarAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				23F9865EBD1C0B571AF2DDCC7DD8AD0B /* StarAnimator.swift */,
+				F68E32B78D9A63E6776F5CA5F5887E7C /* DismissAnimator.swift */,
+				54DE24A093E815523A925CCFC2B6F146 /* PresentAnimator.swift */,
+				10A5F24C7D062E82C48FCDEEBCD4FE87 /* StarAnimatedTransitioning.swift */,
+				1FF37ED7E7F7596431DBDAB48AF5ABF9 /* StarAnimationManager.swift */,
+				FEABE3917371AE8B98F272F1BA8C0A88 /* StarPresentationController.swift */,
+				7ED95A3F3A57C5AFF2E76F7F6A9FA73D /* StarsConfig.swift */,
+				FCE4045592BAB8BAEC651FBBABB3813B /* Pod */,
+				602B297EA380E260E24E7B4037470C77 /* Support Files */,
+			);
+			name = StarAnimations;
+			path = /Users/steve/Desktop/StarAnimations;
+			sourceTree = "<absolute>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2A38C5C4F5A6283EA891B9F926CC1E32 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				9A1AF9A3FFBF70E7C039D1F41293DC04 /* Pods */,
-				85987F013994944CD423EFB82A92A435 /* Products */,
+				917F2944D2FAC499E12EBF9E985C9850 /* Pods */,
+				CB214E5453519DB8BE5C2E4916AFD7BD /* Products */,
 				2F059799E54F62FE1FCA6B649F223086 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		85987F013994944CD423EFB82A92A435 /* Products */ = {
+		917F2944D2FAC499E12EBF9E985C9850 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BB5FAD3CCE670ADB49E7517F19406A67 /* Pods_StarAnimations_Example.framework */,
-				5A34742EFFCEF3A74A1EFB1EC895C281 /* Pods_StarAnimations_Tests.framework */,
-				BAD5AF5C16B3CCFDE811B180A454D1EC /* Reusable.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9A1AF9A3FFBF70E7C039D1F41293DC04 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				34C13C8AAB8EC40EC569E2D175FA8F17 /* Reusable */,
-				13F4FC169A1758190289ACD887214740 /* StarAnimations */,
+				E20134866B8FDEB743E09758EAE038DA /* Reusable */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DFDB88CD97265BE400E65333B0AAB2E0 /* Support Files */ = {
+		CB214E5453519DB8BE5C2E4916AFD7BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				728B34CEAD2B983FB39E9805C9CCF852 /* Info.plist */,
-				4B7D1F0D45D50FC9D429FA9921A8BF40 /* Reusable.modulemap */,
-				595DAE03CFF0C41C374DC0DFD09D474D /* Reusable.xcconfig */,
-				00273F36455BC88F977509C0BC74CBDD /* Reusable-dummy.m */,
-				6DF7C46A659D4D27F33ED8EC768738B9 /* Reusable-prefix.pch */,
-				C7FAE63341544578F6B6340BC3830AF5 /* Reusable-umbrella.h */,
+				F3168CAC45E09E4347EA23B1C315367D /* Pods_StarAnimations_Example.framework */,
+				D9F2DDCAF88C0CC3549DBB44E4497AAE /* Pods_StarAnimations_Tests.framework */,
+				46719BAF2B4BE7181A34A950B8B36418 /* Reusable.framework */,
+				05C883BF1B8955033C5167359D911FB1 /* StarAnimations.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Reusable";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E20134866B8FDEB743E09758EAE038DA /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				525AD1F5E652AA19B470ED8E7D1DB613 /* Storyboard */,
+				5B5E8BD40EFEA522A674BB34F4AECBA9 /* Support Files */,
+				43B329E6A41960B4D03155AA3CEA26B1 /* View */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		FCE4045592BAB8BAEC651FBBABB3813B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7A2DB27A1476C2F88A3B4A99F38079C6 /* LICENSE */,
+				126C2B718C8DEE7C382B79CC738264E2 /* README.md */,
+				BC0B7B638B78FCD24D22CDBFBF86B6DA /* StarAnimations.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26F17216F58F0126AC58F54229A7CE57 /* Headers */ = {
+		1516894403EA7F2900CCF537A366DD39 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F9B85FD4846C5C4214981E0360ABD7D /* Reusable-umbrella.h in Headers */,
+				B587F7C83698DCD169ABF83DB12A3482 /* Pods-StarAnimations_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,50 +364,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2BAD806DF448FAD74B374E0B3FBB0CA /* Headers */ = {
+		DCA0F199898F25541BE0994D4B9830F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69457068DC3EB71455B64057497D1D8A /* Pods-StarAnimations_Example-umbrella.h in Headers */,
+				39AF976C4857E22DD03F4FEE281626D5 /* Reusable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21B6783A5A12366C9D97772A7588F41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51CE1CA8FFA55B6CD7158216F439C0E /* StarAnimations-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D012D7C8BBDABEF90F14B379AB49ECD /* Pods-StarAnimations_Example */ = {
+		12548A7AAC7D16F4F806CE63BF40E08A /* StarAnimations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7362291661AAF90A4F10AD4427C314E /* Build configuration list for PBXNativeTarget "Pods-StarAnimations_Example" */;
+			buildConfigurationList = 3A4DB2F0459314C84E70161A5F56520D /* Build configuration list for PBXNativeTarget "StarAnimations" */;
 			buildPhases = (
-				491701C2CBD23D04679ED6D9E7DC6DA4 /* Sources */,
-				87C071FBB1DF1A95C31EDF8025E579DB /* Frameworks */,
-				D2BAD806DF448FAD74B374E0B3FBB0CA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E5668178D0D48B219D8A400E0258ABFA /* PBXTargetDependency */,
-			);
-			name = "Pods-StarAnimations_Example";
-			productName = "Pods-StarAnimations_Example";
-			productReference = BB5FAD3CCE670ADB49E7517F19406A67 /* Pods_StarAnimations_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3C502DC19C295195DA653EBF69B7B472 /* Reusable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9CFEB9B2C1C6EA98503B5204F340069E /* Build configuration list for PBXNativeTarget "Reusable" */;
-			buildPhases = (
-				F1A1D86A83F2FC567FC945CD2AB0794E /* Sources */,
-				A2664C820B5651C250B3D60A262C6791 /* Frameworks */,
-				26F17216F58F0126AC58F54229A7CE57 /* Headers */,
+				155649C4FA20E754744240432208FA14 /* Sources */,
+				B27EEDFEFB6A4363742F2339F138AE9D /* Frameworks */,
+				F21B6783A5A12366C9D97772A7588F41 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Reusable;
-			productName = Reusable;
-			productReference = BAD5AF5C16B3CCFDE811B180A454D1EC /* Reusable.framework */;
+			name = StarAnimations;
+			productName = StarAnimations;
+			productReference = 05C883BF1B8955033C5167359D911FB1 /* StarAnimations.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5FB65D9F12EDABD9D2DD81CC358FC91F /* Pods-StarAnimations_Tests */ = {
@@ -350,7 +415,43 @@
 			);
 			name = "Pods-StarAnimations_Tests";
 			productName = "Pods-StarAnimations_Tests";
-			productReference = 5A34742EFFCEF3A74A1EFB1EC895C281 /* Pods_StarAnimations_Tests.framework */;
+			productReference = D9F2DDCAF88C0CC3549DBB44E4497AAE /* Pods_StarAnimations_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CEEEC61F8B6C74731C4F2362F1E1EFE /* Reusable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF404987D5D683A109A8333774A0A57B /* Build configuration list for PBXNativeTarget "Reusable" */;
+			buildPhases = (
+				1589185C6A3B29918373686719BA10B9 /* Sources */,
+				9B4DA49D96E47CAFF1E03C9B621DBB00 /* Frameworks */,
+				DCA0F199898F25541BE0994D4B9830F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reusable;
+			productName = Reusable;
+			productReference = 46719BAF2B4BE7181A34A950B8B36418 /* Reusable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99AF4AD9F5CB7641FF06D537CBFF4496 /* Pods-StarAnimations_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40F11DC2268D9F09C90028319B5CD3F /* Build configuration list for PBXNativeTarget "Pods-StarAnimations_Example" */;
+			buildPhases = (
+				7BCBB6FA7B1CBAEE2464F08F07F721F0 /* Sources */,
+				4BB6D1FDF677CD64B7FCC0C134243092 /* Frameworks */,
+				1516894403EA7F2900CCF537A366DD39 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				753471F4879C3DD64400E9EA6C93B0E3 /* PBXTargetDependency */,
+				AA7B35CE3194E0AAB4370E33557C3A2C /* PBXTargetDependency */,
+			);
+			name = "Pods-StarAnimations_Example";
+			productName = "Pods-StarAnimations_Example";
+			productReference = F3168CAC45E09E4347EA23B1C315367D /* Pods_StarAnimations_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -370,18 +471,49 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 85987F013994944CD423EFB82A92A435 /* Products */;
+			productRefGroup = CB214E5453519DB8BE5C2E4916AFD7BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D012D7C8BBDABEF90F14B379AB49ECD /* Pods-StarAnimations_Example */,
+				99AF4AD9F5CB7641FF06D537CBFF4496 /* Pods-StarAnimations_Example */,
 				5FB65D9F12EDABD9D2DD81CC358FC91F /* Pods-StarAnimations_Tests */,
-				3C502DC19C295195DA653EBF69B7B472 /* Reusable */,
+				6CEEEC61F8B6C74731C4F2362F1E1EFE /* Reusable */,
+				12548A7AAC7D16F4F806CE63BF40E08A /* StarAnimations */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		155649C4FA20E754744240432208FA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719F632393DE5C5B276B491D4CDCE5FE /* StarAnimator.swift in Sources */,
+				B793D0D2235B357FA6F3C44B9ADBF3C7 /* DismissAnimator.swift in Sources */,
+				D831C3B9860D65A5D74EA71F4B5F3999 /* PresentAnimator.swift in Sources */,
+				A830AEF30BD8B9AC6E2557F9AD5272BE /* StarAnimatedTransitioning.swift in Sources */,
+				90F28606C32E8851570F5895C483D58B /* StarAnimationManager.swift in Sources */,
+				6B563375F58C8B695745FE8E161D2D03 /* StarAnimations-dummy.m in Sources */,
+				777F69E79C84FCE21C008F05B9800AF5 /* StarPresentationController.swift in Sources */,
+				9BD5AEBED47FB2E2AD9F6734CE79DEFE /* StarsConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1589185C6A3B29918373686719BA10B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146CBA7BDC872E3748F1A0357E3653AA /* NibLoadable.swift in Sources */,
+				A94A83912CE12ABC9CB23107BDF58FD6 /* NibOwnerLoadable.swift in Sources */,
+				D858824FF08072A7B5B74BB84AF9D82F /* Reusable-dummy.m in Sources */,
+				0D3793033A3D7F7E1C66C43D5DAEAD58 /* Reusable.swift in Sources */,
+				40B2E8BA645D83B7D2CF3234EAFC74A9 /* StoryboardBased.swift in Sources */,
+				24BF195BE891FF0B8CC097D7628FCA6A /* StoryboardSceneBased.swift in Sources */,
+				7C76676140386015EB81D0A4E5664BCD /* UICollectionView+Reusable.swift in Sources */,
+				4B8FAF00667C70BA7E4787FB225D41B2 /* UITableView+Reusable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3695995B0B66C52A5DDC55E0D89801C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,26 +522,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		491701C2CBD23D04679ED6D9E7DC6DA4 /* Sources */ = {
+		7BCBB6FA7B1CBAEE2464F08F07F721F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED9FB861D194E90A1116A0BEF25FD6B7 /* Pods-StarAnimations_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1A1D86A83F2FC567FC945CD2AB0794E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE1364AEE70F0BCD611A776DF1763CD6 /* NibLoadable.swift in Sources */,
-				0EC2271916F3AFAEA50835B365786D59 /* NibOwnerLoadable.swift in Sources */,
-				B96B4D475788785576EE8DB9C8EEDD1A /* Reusable-dummy.m in Sources */,
-				FC8AC06732925C31974728D10BB1F270 /* Reusable.swift in Sources */,
-				D81F218B321420FBF85F7F7B670B801B /* StoryboardBased.swift in Sources */,
-				0B7A3A3F7E263095B03081E492A2162D /* StoryboardSceneBased.swift in Sources */,
-				732D1AE6ADEC481CD440FC5AEA787D75 /* UICollectionView+Reusable.swift in Sources */,
-				AD01A07CF9FC295D0B249ADA5F053D07 /* UITableView+Reusable.swift in Sources */,
+				B94294E80F4A92A118108788F7E72B54 /* Pods-StarAnimations_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,18 +536,123 @@
 		13D143EBB99E61D644B2CA41A2A4A80F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-StarAnimations_Example";
-			target = 0D012D7C8BBDABEF90F14B379AB49ECD /* Pods-StarAnimations_Example */;
+			target = 99AF4AD9F5CB7641FF06D537CBFF4496 /* Pods-StarAnimations_Example */;
 			targetProxy = 7AD9626F5A431CA2AD0B8355151C5908 /* PBXContainerItemProxy */;
 		};
-		E5668178D0D48B219D8A400E0258ABFA /* PBXTargetDependency */ = {
+		753471F4879C3DD64400E9EA6C93B0E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Reusable;
-			target = 3C502DC19C295195DA653EBF69B7B472 /* Reusable */;
-			targetProxy = 9CB716779A74DAE1FC8169AB2538CE19 /* PBXContainerItemProxy */;
+			target = 6CEEEC61F8B6C74731C4F2362F1E1EFE /* Reusable */;
+			targetProxy = 6314D902286B6EA5B4534193A027E489 /* PBXContainerItemProxy */;
+		};
+		AA7B35CE3194E0AAB4370E33557C3A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StarAnimations;
+			target = 12548A7AAC7D16F4F806CE63BF40E08A /* StarAnimations */;
+			targetProxy = 3206ED480036E7FE0865E9F783BD44F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0492EE7C243C535397C36CC1BCD713A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C080AFEB9D5544F09373B79395C43C33 /* StarAnimations.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StarAnimations/StarAnimations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StarAnimations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StarAnimations/StarAnimations.modulemap";
+				PRODUCT_MODULE_NAME = StarAnimations;
+				PRODUCT_NAME = StarAnimations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2317DD6718A56F3E761CCE0766CC609E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F9EC7E7A2CE70DDF1B2703C19CAA10 /* Pods-StarAnimations_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarAnimations_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarAnimations_Example/Pods-StarAnimations_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E4EBF5F5024F178AF5DAFED234FD11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C448BCE6FBD3A4039BBD03061BE76F0C /* Reusable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reusable/Reusable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reusable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reusable/Reusable.modulemap";
+				PRODUCT_MODULE_NAME = Reusable;
+				PRODUCT_NAME = Reusable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		467387EC1DA2089876334AE69223D7D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D114A7EE95077BEA3B34403033B25A1A /* Pods-StarAnimations_Tests.debug.xcconfig */;
@@ -464,10 +686,11 @@
 			};
 			name = Debug;
 		};
-		4A85FFD81E48344B6FE9D4CF06EA2743 /* Release */ = {
+		50F35DAD1F6AD35FD4DBDDA4EE952E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 595DAE03CFF0C41C374DC0DFD09D474D /* Reusable.xcconfig */;
+			baseConfigurationReference = 892A634E5F95827ABF1CCFBCDE96ECBD /* Pods-StarAnimations_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -477,25 +700,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Reusable/Reusable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Reusable/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarAnimations_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Reusable/Reusable.modulemap";
-				PRODUCT_MODULE_NAME = Reusable;
-				PRODUCT_NAME = Reusable;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarAnimations_Example/Pods-StarAnimations_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		55A627E182D40E9B1DA411DD878A892B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -531,9 +755,9 @@
 			};
 			name = Release;
 		};
-		839228BC4B7E92C8EAA7CE3057E2213D /* Debug */ = {
+		69BB6C84F6D92C3A98BF8B9BE8EF7859 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 595DAE03CFF0C41C374DC0DFD09D474D /* Reusable.xcconfig */;
+			baseConfigurationReference = C080AFEB9D5544F09373B79395C43C33 /* StarAnimations.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -544,24 +768,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Reusable/Reusable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Reusable/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/StarAnimations/StarAnimations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StarAnimations/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Reusable/Reusable.modulemap";
-				PRODUCT_MODULE_NAME = Reusable;
-				PRODUCT_NAME = Reusable;
+				MODULEMAP_FILE = "Target Support Files/StarAnimations/StarAnimations.modulemap";
+				PRODUCT_MODULE_NAME = StarAnimations;
+				PRODUCT_NAME = StarAnimations;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -684,11 +909,10 @@
 			};
 			name = Release;
 		};
-		D76F8E207144CE52F3BF0F5DBAC1618F /* Debug */ = {
+		ED8FA7C6D00CBC1363D8A060C23D457A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 892A634E5F95827ABF1CCFBCDE96ECBD /* Pods-StarAnimations_Example.debug.xcconfig */;
+			baseConfigurationReference = C448BCE6FBD3A4039BBD03061BE76F0C /* Reusable.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -698,55 +922,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StarAnimations_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Reusable/Reusable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reusable/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StarAnimations_Example/Pods-StarAnimations_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Reusable/Reusable.modulemap";
+				PRODUCT_MODULE_NAME = Reusable;
+				PRODUCT_NAME = Reusable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E8E02641A4D8F60B1B078319E987D2F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02F9EC7E7A2CE70DDF1B2703C19CAA10 /* Pods-StarAnimations_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StarAnimations_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StarAnimations_Example/Pods-StarAnimations_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -766,6 +954,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3A4DB2F0459314C84E70161A5F56520D /* Build configuration list for PBXNativeTarget "StarAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0492EE7C243C535397C36CC1BCD713A8 /* Debug */,
+				69BB6C84F6D92C3A98BF8B9BE8EF7859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5C99BEC46DE6BA4BC2086F00C70A4C9D /* Build configuration list for PBXNativeTarget "Pods-StarAnimations_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -775,20 +972,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CFEB9B2C1C6EA98503B5204F340069E /* Build configuration list for PBXNativeTarget "Reusable" */ = {
+		B40F11DC2268D9F09C90028319B5CD3F /* Build configuration list for PBXNativeTarget "Pods-StarAnimations_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				839228BC4B7E92C8EAA7CE3057E2213D /* Debug */,
-				4A85FFD81E48344B6FE9D4CF06EA2743 /* Release */,
+				50F35DAD1F6AD35FD4DBDDA4EE952E89 /* Debug */,
+				2317DD6718A56F3E761CCE0766CC609E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7362291661AAF90A4F10AD4427C314E /* Build configuration list for PBXNativeTarget "Pods-StarAnimations_Example" */ = {
+		EF404987D5D683A109A8333774A0A57B /* Build configuration list for PBXNativeTarget "Reusable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D76F8E207144CE52F3BF0F5DBAC1618F /* Debug */,
-				E8E02641A4D8F60B1B078319E987D2F4 /* Release */,
+				2E4EBF5F5024F178AF5DAFED234FD11C /* Debug */,
+				ED8FA7C6D00CBC1363D8A060C23D457A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

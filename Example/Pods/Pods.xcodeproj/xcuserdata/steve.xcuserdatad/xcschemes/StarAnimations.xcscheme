@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6CEEEC61F8B6C74731C4F2362F1E1EFE"
-               BlueprintName = "Reusable"
+               BlueprintIdentifier = "12548A7AAC7D16F4F806CE63BF40E08A"
+               BlueprintName = "StarAnimations"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Reusable.framework">
+               BuildableName = "StarAnimations.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

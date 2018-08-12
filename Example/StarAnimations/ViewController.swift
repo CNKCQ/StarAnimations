@@ -28,14 +28,22 @@ extension ViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let beginCell: TableTableViewCell = tableView.cellForRow(at: indexPath) as! TableTableViewCell
-        let dest: UIViewController = UpViewController()
         let window = UIApplication.shared.keyWindow!
         let presentRect = beginCell.starView!.convert(beginCell.starView!.bounds, to: window)
-        self.animationManager = StarAnimationManager(self, dest: dest)
         StarsConfig.default.presentRect = presentRect
-        StarsConfig.default.destBackgroundColor = UIColor.blue
         StarsConfig.default.starImage = beginCell.starView.image ?? UIImage(named: "icon_star_filled")
-        StarsConfig.default.duration = 0.4
+        StarsConfig.default.duration = 1
+        StarsConfig.default.presentDuration = 0.3
+        StarsConfig.default.starsCount = 9
+//        StarsConfig.default.presentAnimation = {
+//            let to = $0.viewController(forKey: UITransitionContextViewControllerKey.to)
+//            to?.view.transform = CGAffineTransform.init(scaleX: 0.1, y: 0.1)
+//            UIView.animate(withDuration: $1, animations: {
+//                to?.view.transform = .identity
+//            })
+//        }
+        let dest: UIViewController = UpViewController()
+        self.animationManager = StarAnimationManager(self, dest: dest)
         self.present(dest, animated: true, completion: nil)
     }
     

@@ -16,5 +16,4 @@ class UpViewController: UIViewController {
         self.popoverView = PopoverView(CGRect(x: 16, y: (self.view.frame.height - 400) / 2.0, width: self.view.frame.width - 32, height: 400), controller: self)
         self.view.addSubview(self.popoverView)        
     }
-
 }
