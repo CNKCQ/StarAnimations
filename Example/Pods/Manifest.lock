@@ -5,12 +5,12 @@ PODS:
     - Reusable/View (= 4.0.2)
   - Reusable/Storyboard (4.0.2)
   - Reusable/View (4.0.2)
-  - StarAnimations (0.1.0)
+  - StarAnimations (0.1.1)
 
 DEPENDENCIES:
   - Hero
   - Reusable
-  - StarAnimations (from `/Users/steve/Desktop/StarAnimations`)
+  - StarAnimations (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -19,13 +19,13 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   StarAnimations:
-    :path: "/Users/steve/Desktop/StarAnimations"
+    :path: "../"
 
 SPEC CHECKSUMS:
   Hero: 3eecd3fd62dd2425cbc7e35505c557b86d5a379e
   Reusable: 584a5629747c52e0f6a77841b400dc2643f6fa0f
-  StarAnimations: 8548b319f9f25b13ffb59a0d79211ac43240033e
+  StarAnimations: 5f56672acfe72f2a1cb7b386ddeb0e5eae8a89e2
 
-PODFILE CHECKSUM: cf29edfaf070355080e0078b8cd6644f3aa6bd63
+PODFILE CHECKSUM: 89f99ef87f1d88bd3dddc8ed518046bd5bd60833
 
 COCOAPODS: 1.5.2

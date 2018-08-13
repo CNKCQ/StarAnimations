@@ -183,6 +183,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				8009C140268B0F81FBA3B1A5 /* [CP] Embed Pods Frameworks */,
+				AAA4EF3321213F0D009AD8DB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -303,7 +304,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-StarAnimations_Example/Pods-StarAnimations_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
-				"${BUILT_PRODUCTS_DIR}/StarAnimations/StarAnimations.framework",
+				"${PODS_ROOT}/../../StarAnimations/Frameworks/StarAnimations.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -315,6 +316,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarAnimations_Example/Pods-StarAnimations_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		AAA4EF3321213F0D009AD8DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
 		};
 		F6A1BC03EBE506A8C028E32D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -492,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8P2R9XN7Q8;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = StarAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -508,6 +523,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8P2R9XN7Q8;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = StarAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

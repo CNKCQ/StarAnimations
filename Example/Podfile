@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'StarAnimations_Example' do
-    pod 'StarAnimations', :path => '/Users/steve/Desktop/StarAnimations'
+#    pod 'StarAnimations', :path => '/Users/steve/Desktop/StarAnimations'
+    pod 'StarAnimations', :path => '../'
 #    pod 'StarAnimations'
     pod 'Reusable'
     pod 'Hero'
