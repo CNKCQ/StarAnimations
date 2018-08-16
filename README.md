@@ -8,6 +8,9 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## preview
+
+![image](https://s27.aconvert.com/convert/p3r68-cdx67/3lhc7-6czie.gif)
 
 ## Interface
 ```swift
